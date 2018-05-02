@@ -1,0 +1,6 @@
+siteTest\Account.class
+siteTest\pages\MyAccountPage.class
+siteTest\steps\DefinitionSteps.class
+siteTest\steps\serenity\EndUserSteps.class
+siteTest\pages\LoginPage.class
+siteTest\AcceptanceTestSuite.class

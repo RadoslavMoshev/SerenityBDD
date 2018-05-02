@@ -1,0 +1,134 @@
+<story path="stories/consult_dictionary/Account.story" title="Sample story">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">communicate effectively to the business some functionality</inOrderTo>
+  <asA keyword="As a">development team</asA>
+  <iWantTo keyword="I want to">use Behaviour-Driven Development</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="User account is logged in and logged out">
+<step outcome="successful">Given I am on Login page</step>
+<step outcome="successful">When I am authenticated</step>
+<step outcome="successful">Then I am on My Account Dashboard</step>
+<step outcome="successful">Then Logging out I return to the Login page</step>
+</scenario>
+<scenario keyword="Scenario:" title="User account can change currency">
+<step outcome="successful">Given I am on Logged in</step>
+<step outcome="successful">When I am at hotels page</step>
+<step outcome="successful">Then I change the currency</step>
+<step outcome="successful">Then I see prices with the new currency</step>
+</scenario>
+<scenario keyword="Scenario:" title="User can filter search by star grade">
+<step outcome="successful">Given I am logged in and im on hotels page</step>
+<step outcome="successful">When I search hotels by star grade</step>
+<step outcome="successful">Then I see only hotels with filtered stars</step>
+</scenario>
+<scenario keyword="Scenario:" title="User can navigate and logout from Invoice menu">
+<step outcome="pending" keyword="PENDING">Given I am logged in My Account Page</step>
+<step outcome="pending" keyword="PENDING">When I open Invoice</step>
+<step outcome="pending" keyword="PENDING">Then I click My Account</step>
+<step outcome="pending" keyword="PENDING">Then I shoud be able to click Account or Logout buttons</step>
+</scenario>
+<scenario keyword="Scenario:" title="Tours extras should be calculated">
+<step outcome="pending" keyword="PENDING">Given I am booking Tour</step>
+<step outcome="pending" keyword="PENDING">When I select Extras</step>
+<step outcome="pending" keyword="PENDING">Then Extras prices are added to the Total amount</step>
+</scenario>
+<scenario keyword="Scenario:" title="User can&apos;t log in with valid username and wrong pasword">
+<step outcome="pending" keyword="PENDING">Given I am on login page</step>
+<step outcome="pending" keyword="PENDING">When I enter valid username and wrong password</step>
+<step outcome="pending" keyword="PENDING">Then Error is displayed</step>
+<pendingMethod>@Given(&quot;I am on login page&quot;)
+@Pending
+public void givenIAmOnLoginPage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I enter valid username and wrong password&quot;)
+@Pending
+public void whenIEnterValidUsernameAndWrongPassword() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Error is displayed&quot;)
+@Pending
+public void thenErrorIsDisplayed() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="User can write a review">
+<step outcome="pending" keyword="PENDING">Given I am on Hotels page</step>
+<step outcome="pending" keyword="PENDING">When I enter hotel details</step>
+<step outcome="pending" keyword="PENDING">Then I can Write Review</step>
+<pendingMethod>@Given(&quot;I am on Hotels page&quot;)
+@Pending
+public void givenIAmOnHotelsPage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I enter hotel details&quot;)
+@Pending
+public void whenIEnterHotelDetails() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;I can Write Review&quot;)
+@Pending
+public void thenICanWriteReview() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="User can change password">
+<step outcome="pending" keyword="PENDING">Given I am on My Profile page</step>
+<step outcome="pending" keyword="PENDING">When I change my password</step>
+<step outcome="pending" keyword="PENDING">Then I can log in with the new one</step>
+<step outcome="pending" keyword="PENDING">And old password is not valid</step>
+<pendingMethod>@Given(&quot;I am on My Profile page&quot;)
+@Pending
+public void givenIAmOnMyProfilePage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I change my password&quot;)
+@Pending
+public void whenIChangeMyPassword() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;I can log in with the new one&quot;)
+@Pending
+public void thenICanLogInWithTheNewOne() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;old password is not valid&quot;)
+@Pending
+public void thenOldPasswordIsNotValid() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="User can search Flights">
+<step outcome="pending" keyword="PENDING">Given I am on Flights page</step>
+<step outcome="pending" keyword="PENDING">When I fill search criteria</step>
+<step outcome="pending" keyword="PENDING">Then Flights matching the criteria are displayed</step>
+<pendingMethod>@Given(&quot;I am on Flights page&quot;)
+@Pending
+public void givenIAmOnFlightsPage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I fill search criteria&quot;)
+@Pending
+public void whenIFillSearchCriteria() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Flights matching the criteria are displayed&quot;)
+@Pending
+public void thenFlightsMatchingTheCriteriaAreDisplayed() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

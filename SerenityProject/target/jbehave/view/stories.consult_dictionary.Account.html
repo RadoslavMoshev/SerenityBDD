@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>stories.consult_dictionary.Account</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>Sample story</h1>
+<div class="path">stories/consult_dictionary/Account.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> communicate effectively to the business some functionality</div>
+<div class="element asA"><span class="keyword asA">As a</span> development team</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> use Behaviour-Driven Development</div>
+</div>
+<div class="scenario">
+<h2>Scenario: User account is logged in and logged out</h2>
+<div class="step successful">Given I am on Login page</div>
+<div class="step successful">When I am authenticated</div>
+<div class="step successful">Then I am on My Account Dashboard</div>
+<div class="step successful">Then Logging out I return to the Login page</div>
+</div>
+<div class="scenario">
+<h2>Scenario: User account can change currency</h2>
+<div class="step successful">Given I am on Logged in</div>
+<div class="step successful">When I am at hotels page</div>
+<div class="step successful">Then I change the currency</div>
+<div class="step successful">Then I see prices with the new currency</div>
+</div>
+<div class="scenario">
+<h2>Scenario: User can filter search by star grade</h2>
+<div class="step successful">Given I am logged in and im on hotels page</div>
+<div class="step successful">When I search hotels by star grade</div>
+<div class="step successful">Then I see only hotels with filtered stars</div>
+</div>
+<div class="scenario">
+<h2>Scenario: User can navigate and logout from Invoice menu</h2>
+<div class="step pending">Given I am logged in My Account Page <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I open Invoice <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I click My Account <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I shoud be able to click Account or Logout buttons <span class="keyword pending">(PENDING)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Tours extras should be calculated</h2>
+<div class="step pending">Given I am booking Tour <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I select Extras <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then Extras prices are added to the Total amount <span class="keyword pending">(PENDING)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: User can't log in with valid username and wrong pasword</h2>
+<div class="step pending">Given I am on login page <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I enter valid username and wrong password <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then Error is displayed <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;I am on login page&quot;)
+@Pending
+public void givenIAmOnLoginPage() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I enter valid username and wrong password&quot;)
+@Pending
+public void whenIEnterValidUsernameAndWrongPassword() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;Error is displayed&quot;)
+@Pending
+public void thenErrorIsDisplayed() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: User can write a review</h2>
+<div class="step pending">Given I am on Hotels page <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I enter hotel details <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I can Write Review <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;I am on Hotels page&quot;)
+@Pending
+public void givenIAmOnHotelsPage() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I enter hotel details&quot;)
+@Pending
+public void whenIEnterHotelDetails() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;I can Write Review&quot;)
+@Pending
+public void thenICanWriteReview() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: User can change password</h2>
+<div class="step pending">Given I am on My Profile page <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I change my password <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I can log in with the new one <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And old password is not valid <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;I am on My Profile page&quot;)
+@Pending
+public void givenIAmOnMyProfilePage() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I change my password&quot;)
+@Pending
+public void whenIChangeMyPassword() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;I can log in with the new one&quot;)
+@Pending
+public void thenICanLogInWithTheNewOne() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;old password is not valid&quot;)
+@Pending
+public void thenOldPasswordIsNotValid() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: User can search Flights</h2>
+<div class="step pending">Given I am on Flights page <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I fill search criteria <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then Flights matching the criteria are displayed <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;I am on Flights page&quot;)
+@Pending
+public void givenIAmOnFlightsPage() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I fill search criteria&quot;)
+@Pending
+public void whenIFillSearchCriteria() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;Flights matching the criteria are displayed&quot;)
+@Pending
+public void thenFlightsMatchingTheCriteriaAreDisplayed() {
+  // PENDING
+}
+</pre></div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed Apr 25 14:07:28 EEST 2018
+stories/consult_dictionary/Account.story=68000
+threads=1
+total=68000
+threadAverage=68000
